@@ -1,38 +1,141 @@
-.App {
+.ck-content{
+  height: 250px;
+}
+
+.pimgc{
+  width: 100%;
+  border: 0px solid;
+  border-radius: 20px;
+}
+.chompa{
+  height: 230px;
+
+}
+.hover14{
+  margin-bottom: 20px;;
+}
+
+
+.products-breadcrumb{
+  background-color: 	  #996633;
+}
+
+
+.logo_products{
+  background-color: #ffa64d;
+}
+
+
+.banner{
+  background-color:#ffbf80;
+}
+
+
+#bs-megadropdown-tabs{
+  background-color: #ffbf80;
+}
+
+.w3l_banner_nav_right_banner3 h3{
+  background-color:transparent;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 41px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .w3l_banner_nav_right_banner3_btm{
+  
+} */
+
+.img-responsive{
+  border: 0px solid ;
+  border-radius: 20px;
+  width: 100%;
+  object-fit: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-responsive-1{
+  border: 0px solid ;
+  border-radius: 20px;
+  width: 100%;
+  object-fit: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-responsive-2{
+  border: 0px solid ;
+  border-radius: 20px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.img-responsive-3{
+  border: 0px solid ;
+  border-radius: 20px;
+  width: 100%;
+  height: 280px;
+  object-fit:cover;
+}
+
+
+.w3ls_vegetables ul li{
+  margin: 10px 0px;
+}
+
+
+.col-md-12{
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: center;
+  /* font-size: 600px;
+  font-weight: 600; */
+}
+
+/* .col-md-12 > hr{
+  width: 10%;
+  border: 0px solid red;
+  background-color: red;
+  /* color: red; */
+  /* height: 1.5px; */
+/* } */  
+
+
+.col-md-6 > iframe{
+  width: 100%;
+  height: 350px;
+  border: 3px solid #996633;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+
+.agile_about_grid_left > p > h2{
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+  text-align:left;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+
+.col-md-3 > h4{
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+
+.agileits_social_icons_team{
+  margin-top: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.col-md-3 {
+  padding: 30px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
